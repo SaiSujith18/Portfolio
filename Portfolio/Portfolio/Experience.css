@@ -1,0 +1,89 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff); /* cool aesthetic gradient */
+  color: #333;
+  line-height: 1.6;
+  padding: 60px 20px;
+}
+
+/* ===== Page Heading ===== */
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+/* ===== Experience Card ===== */
+.experience-card {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== Titles & Subtitles ===== */
+.experience-card p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 1rem;
+}
+
+.experience-card b {
+  color: #222;
+}
+
+.experience-card i {
+  color: #555;
+  display: block;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+/* ===== Section Headings ===== */
+h3 {
+  margin: 18px 0 12px;
+  font-size: 1.2rem;
+  color: #007bff;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+
+/* ===== Achievements List ===== */
+ul {
+  margin: 10px 0 15px 20px;
+  padding-left: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  list-style-type: "✔ ";
+}
+
+/* ===== Divider ===== */
+hr {
+  border: none;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 30px auto;
+  max-width: 850px;
+}

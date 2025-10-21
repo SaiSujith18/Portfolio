@@ -1,0 +1,55 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff); /* aesthetic gradient */
+  color: #333;
+  line-height: 1.6;
+  padding: 50px 20px;
+}
+
+/* ===== Heading ===== */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* ===== Paragraphs (Education Details) ===== */
+p {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  color: #444;
+}
+
+/* ===== Links (Learn More Button) ===== */
+a {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0;
+  padding: 12px 25px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+a:hover {
+  background: #0056b3;
+}
+
+
+
